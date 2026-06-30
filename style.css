@@ -1,0 +1,161 @@
+ body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+      header {
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      header .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+      }
+      nav a {
+        margin-left: 1rem;
+        text-decoration: none;
+        color: #0f172a;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #4f46e5;
+      }
+      .hero {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 4rem 1rem;
+      }
+      .hero h2 {
+        font-size: 2rem;
+        font-weight: 800;
+      }
+      .hero span {
+        color: #4f46e5;
+      }
+      .hero p {
+        margin-top: 1rem;
+        color: #475569;
+      }
+      .button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+      }
+      .button.primary {
+        background: #4f46e5;
+        color: #fff;
+      }
+      .button.secondary {
+        border: 1px solid #ccc;
+        color: #0f172a;
+      }
+      .grid {
+        display: grid;
+        gap: 1.5rem;
+      }
+      .services,
+      .portfolio,
+      .pricing,
+      .contact {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem 1rem;
+      }
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+      }
+      .card ul {
+        margin-top: 1rem;
+        color: #475569;
+      }
+      .portfolio-item {
+        background: #f1f5f9;
+        border-radius: 10px;
+        padding: 1rem;
+        border: 1px solid #e2e8f0;
+      }
+      .tags span {
+        background: #fff;
+        border: 1px solid #ccc;
+        padding: 2px 6px;
+        border-radius: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+      }
+      .pricing-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      .pricing-card h4 {
+        margin-top: 0.5rem;
+      }
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-top: 0.5rem;
+      }
+      footer {
+        background: #fff;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+        color: #475569;
+      }
+      @media (max-width: 768px) {
+        .hero {
+          grid-template-columns: 1fr;
+        }
+        nav {
+          display: none;
+        }
+      }
+
+      /* --- BOTÓN WHATSAPP FLOTANTE --- */
+      .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+        transition: transform 0.3s ease;
+      }
+      .whatsapp-float:hover {
+        transform: scale(1.1);
+      }
+      .whatsapp-float img {
+        width: 35px;
+        height: 35px;
+      }
