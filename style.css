@@ -554,9 +554,10 @@
 
 .btn-download{
     display:inline-block;
+    contentalign:center;
     padding:14px 35px;
-    background:#ff9800;
-    color:#fff;
+    background:#131212;
+    color:#ffffff;
     text-decoration:none;
     border-radius:8px;
     font-weight:bold;
