@@ -1,486 +1,629 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional Lineage II server development, L2JMobius systems, interfaces, optimizations and custom solutions for Interlude and Epilogue projects.">
-  <meta name="keywords" content="Lineage 2 development, L2JMobius, Interlude, Epilogue, Java developer, Lineage 2 server">
-  <meta name="author" content="Dev/Code">
-  <meta name="theme-color" content="#080b12">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional Lineage II server development, L2JMobius systems, interfaces, optimizations and custom solutions for Interlude and Epilogue projects."
+    />
+    <meta
+      name="keywords"
+      content="Lineage 2 development, L2JMobius, Interlude, Epilogue, Java developer, Lineage 2 server"
+    />
+    <meta name="author" content="Dev/Code" />
+    <meta name="theme-color" content="#080b12" />
 
-  <meta property="og:title" content="Dev/Code — Lineage II Server Development">
-  <meta property="og:description" content="Custom systems, interfaces, optimization and professional development for Lineage II servers.">
-  <meta property="og:type" content="website">
+    <meta
+      property="og:title"
+      content="Dev/Code — Lineage II Server Development"
+    />
+    <meta
+      property="og:description"
+      content="Custom systems, interfaces, optimization and professional development for Lineage II servers."
+    />
+    <meta property="og:type" content="website" />
 
-  <title>Dev/Code — Lineage II Server Development</title>
+    <title>Dev/Code — Lineage II Server Development</title>
 
-  <link rel="icon" href="favicon/software.ico">
-  <link rel="stylesheet" href="style.css">
-  <script src="scripts.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
+    <link rel="icon" href="favicon/software.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Dev Code home">
-        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
-        <span class="brand-copy">
-          <strong>Dev/Code</strong>
-          <small>Lineage II Development</small>
-        </span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#videos">Videos</a>
-        <a href="free.html">Free Resources</a>
-        <a class="nav-cta" href="#contact">Start a project</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main-content">
-    <section class="hero section-shell">
-      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
-      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
-
-      <div class="container hero-grid">
-        <div class="hero-content reveal">
-          <div class="eyebrow">
-            <span class="status-dot"></span>
-            Specialized Lineage II development
-          </div>
-
-          <h1>
-            Professional systems for
-            <span>Lineage II servers.</span>
-          </h1>
-
-          <p class="hero-description">
-            Custom development for L2JMobius projects. Server-side systems,
-            interfaces, gameplay features, database integration, security,
-            optimization and long-term technical support.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#contact">Request a quote</a>
-            <a class="button button-secondary" href="#portfolio">Explore my work</a>
-          </div>
-
-          <div class="hero-trust">
-            <div>
-              <strong>Core + Datapack</strong>
-              <span>Complete implementation</span>
-            </div>
-            <div>
-              <strong>Interlude / Epilogue</strong>
-              <span>Specialized chronicles</span>
-            </div>
-            <div>
-              <strong>Clean delivery</strong>
-              <span>Organized and documented</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-panel reveal">
-          <div class="code-window">
-            <div class="code-window-top">
-              <div class="window-dots" aria-hidden="true">
-                <span></span><span></span><span></span>
-              </div>
-              <span>developer-profile.java</span>
-            </div>
-
-            <div class="code-content" aria-label="Developer technologies and specialties">
-              <div><span class="code-keyword">public final class</span> <span class="code-class">DevCode</span> {</div>
-              <div class="code-indent"><span class="code-property">stack</span> = [</div>
-              <div class="code-indent-2">"Java", "L2JMobius", "MySQL",</div>
-              <div class="code-indent-2">"HTML", "XML", "UnrealScript", "Git"</div>
-              <div class="code-indent">];</div>
-              <br>
-              <div class="code-indent"><span class="code-property">specialties</span> = [</div>
-              <div class="code-indent-2">"Custom Systems", "Interfaces",</div>
-              <div class="code-indent-2">"PvP Events", "Optimization",</div>
-              <div class="code-indent-2">"Community Board", "Security"</div>
-              <div class="code-indent">];</div>
-              <div>}</div>
-            </div>
-
-            <div class="code-footer">
-              <span><i></i> Available for new projects</span>
-              <span>L2JMobius</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="stats-strip" aria-label="Development strengths">
-      <div class="container stats-grid">
-        <article>
-          <strong>Custom</strong>
-          <span>Systems designed around your project</span>
-        </article>
-        <article>
-          <strong>Stable</strong>
-          <span>Performance-focused implementation</span>
-        </article>
-        <article>
-          <strong>Scalable</strong>
-          <span>Code prepared for future expansion</span>
-        </article>
-        <article>
-          <strong>Professional</strong>
-          <span>Clear structure and technical support</span>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section-muted" id="services">
-      <div class="container">
-        <div class="section-heading reveal">
-          <div>
-            <span class="section-kicker">Services</span>
-            <h2>Complete technical solutions</h2>
-          </div>
-          <p>
-            From an isolated feature to a complete server system, every
-            implementation is structured for stability, maintainability and
-            compatibility with your existing project.
-          </p>
-        </div>
-
-        <div class="services-grid">
-          <article class="service-card reveal">
-            <div class="service-number">01</div>
-            <div class="service-icon" aria-hidden="true">⌘</div>
-            <h3>Custom Systems</h3>
-            <p>
-              Exclusive server-side features developed for your economy,
-              progression and gameplay model.
-            </p>
-            <ul class="feature-list">
-              <li>Auto Hunting</li>
-              <li>Skins and Agathions</li>
-              <li>Daily Missions</li>
-              <li>Marketplaces and Shops</li>
-            </ul>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-number">02</div>
-            <div class="service-icon" aria-hidden="true">⚔</div>
-            <h3>Gameplay Development</h3>
-            <p>
-              Events, zones and custom mechanics designed to improve player
-              retention and server identity.
-            </p>
-            <ul class="feature-list">
-              <li>PvP and PvE events</li>
-              <li>Custom farming zones</li>
-              <li>Quest and reward systems</li>
-              <li>Olympiad improvements</li>
-            </ul>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-number">03</div>
-            <div class="service-icon" aria-hidden="true">◈</div>
-            <h3>Interfaces</h3>
-            <p>
-              Client and web interfaces that improve usability while preserving
-              the visual identity of Lineage II.
-            </p>
-            <ul class="feature-list">
-              <li>Community Board</li>
-              <li>Custom windows</li>
-              <li>Teleport and shop UI</li>
-              <li>Responsive websites</li>
-            </ul>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-number">04</div>
-            <div class="service-icon" aria-hidden="true">⚙</div>
-            <h3>Optimization</h3>
-            <p>
-              Technical analysis and refactoring focused on stability, resource
-              usage and long-running server performance.
-            </p>
-            <ul class="feature-list">
-              <li>Bug fixing</li>
-              <li>AI optimization</li>
-              <li>Database improvements</li>
-              <li>Code refactoring</li>
-            </ul>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-number">05</div>
-            <div class="service-icon" aria-hidden="true">⌁</div>
-            <h3>Security</h3>
-            <p>
-              Preventive fixes and validation layers for common abuse vectors,
-              exploits and unsafe game actions.
-            </p>
-            <ul class="feature-list">
-              <li>Anti-exploit validation</li>
-              <li>Packet and action checks</li>
-              <li>Safe database operations</li>
-              <li>Permission control</li>
-            </ul>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-number">06</div>
-            <div class="service-icon" aria-hidden="true">✓</div>
-            <h3>Technical Support</h3>
-            <p>
-              Implementation guidance, troubleshooting and structured delivery
-              for every completed development.
-            </p>
-            <ul class="feature-list">
-              <li>Installation support</li>
-              <li>Compatibility review</li>
-              <li>Source code delivery</li>
-              <li>Post-delivery fixes</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="portfolio">
-      <div class="container">
-        <div class="section-heading reveal">
-          <div>
-            <span class="section-kicker">Selected work</span>
-            <h2>Projects and systems</h2>
-          </div>
-          <p>
-            A selection of real features created for Lineage II Interlude
-            projects. Open any project to watch its demonstration.
-          </p>
-        </div>
-
-        <div class="portfolio-grid">
-          <a class="project-card project-card-large reveal" href="https://youtu.be/lbS3PmtXhps" target="_blank" rel="noopener noreferrer">
-            <img src="img/AutoHunting.bmp" alt="Lineage II Auto Hunting system interface" loading="lazy">
-            <div class="project-shade"></div>
-            <div class="project-content">
-              <span>Custom System</span>
-              <h3>Auto Hunting</h3>
-              <p>Automated combat, targeting and player configuration.</p>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-card reveal" href="https://youtu.be/Ibydt8uTrJc" target="_blank" rel="noopener noreferrer">
-            <img src="img/redeem.bmp" alt="Lineage II redeem code system" loading="lazy">
-            <div class="project-shade"></div>
-            <div class="project-content">
-              <span>Reward System</span>
-              <h3>Redeem Codes</h3>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-card reveal" href="https://www.youtube.com/watch?v=Mz7wLxYxdsU" target="_blank" rel="noopener noreferrer">
-            <img src="img/boxrandom.bmp" alt="Lineage II random box system" loading="lazy">
-            <div class="project-shade"></div>
-            <div class="project-content">
-              <span>Item System</span>
-              <h3>Random Boxes</h3>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-card reveal" href="https://www.youtube.com/watch?v=rhBnKX_fHzY" target="_blank" rel="noopener noreferrer">
-            <img src="img/agathions.bmp" alt="Lineage II Agathion system" loading="lazy">
-            <div class="project-shade"></div>
-            <div class="project-content">
-              <span>Character System</span>
-              <h3>Agathions</h3>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-card reveal" href="https://www.youtube.com/watch?v=oK6vBdqfyj4" target="_blank" rel="noopener noreferrer">
-            <img src="img/skins.bmp" alt="Lineage II skins system" loading="lazy">
-            <div class="project-shade"></div>
-            <div class="project-content">
-              <span>Appearance System</span>
-              <h3>Skins</h3>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-card project-card-wide reveal" href="https://www.youtube.com/watch?v=Kq8JMWoIq18&t=6s" target="_blank" rel="noopener noreferrer">
-            <img src="img/Interface.bmp" alt="Custom Lineage II Interlude interface" loading="lazy">
-            <div class="project-shade"></div>
-            <div class="project-content">
-              <span>Client Interface</span>
-              <h3>Interlude Interface</h3>
-              <p>A modernized client experience with practical custom windows.</p>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-dark" id="videos">
-      <div class="container">
-        <div class="section-heading section-heading-light reveal">
-          <div>
-            <span class="section-kicker">YouTube</span>
-            <h2>Latest development videos</h2>
-          </div>
-          <p>
-            Demonstrations, releases and development updates. New videos can be
-            added from a single list inside <code>scripts.js</code>.
-          </p>
-        </div>
-
-        <div class="video-grid" id="video-grid" aria-live="polite"></div>
-
-        <div class="section-action reveal">
-          <a class="button button-light" href="https://www.youtube.com/@DevCode-ar" target="_blank" rel="noopener noreferrer">
-            Visit the YouTube channel
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="process">
-      <div class="container process-layout">
-        <div class="process-intro reveal">
-          <span class="section-kicker">Workflow</span>
-          <h2>A clear development process</h2>
-          <p>
-            Every project is handled in defined stages, reducing ambiguity and
-            protecting compatibility with the existing core and datapack.
-          </p>
-          <a class="text-link" href="#contact">Discuss your project <span>→</span></a>
-        </div>
-
-        <div class="process-list">
-          <article class="process-step reveal">
-            <span>01</span>
-            <div>
-              <h3>Technical analysis</h3>
-              <p>Requirements, chronicle, source structure and integration points are reviewed.</p>
-            </div>
-          </article>
-          <article class="process-step reveal">
-            <span>02</span>
-            <div>
-              <h3>Architecture</h3>
-              <p>The system is organized before implementation to avoid duplicated or fragile code.</p>
-            </div>
-          </article>
-          <article class="process-step reveal">
-            <span>03</span>
-            <div>
-              <h3>Development and testing</h3>
-              <p>Core, datapack, database and interface components are implemented and validated.</p>
-            </div>
-          </article>
-          <article class="process-step reveal">
-            <span>04</span>
-            <div>
-              <h3>Delivery and support</h3>
-              <p>Files are delivered in a clear structure with implementation guidance and follow-up.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div class="container">
-        <div class="contact-panel reveal">
-          <div class="contact-copy">
-            <span class="section-kicker">Contact</span>
-            <h2>Build something unique for your server.</h2>
-            <p>
-              Tell me what you want to create, which L2JMobius version you use
-              and the current state of your project. I will evaluate the best
-              technical approach.
-            </p>
-
-            <div class="contact-actions">
-              <a class="button button-primary" href="mailto:devcode.contact.ar@gmail.com">Send an email</a>
-              <a class="button button-secondary-dark" href="https://wa.me/541165783450" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            </div>
-          </div>
-
-          <div class="contact-card">
-            <span>Email</span>
-            <a href="mailto:devcode.contact.ar@gmail.com">devcode.contact.ar@gmail.com</a>
-            <button class="copy-email" type="button" data-email="devcode.contact.ar@gmail.com">
-              Copy email
-            </button>
-
-            <div class="contact-separator"></div>
-
-            <span>Specialization</span>
-            <strong>L2JMobius Interlude / Epilogue</strong>
-            <span>Development language</span>
-            <strong>Java</strong>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <a class="brand footer-brand" href="#top">
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Dev Code home">
           <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
           <span class="brand-copy">
             <strong>Dev/Code</strong>
             <small>Lineage II Development</small>
           </span>
         </a>
-        <p>Professional development and technical solutions for Lineage II servers.</p>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#videos">Videos</a>
+          <a href="free.html">Free Resources</a>
+          <a class="nav-cta" href="#contact">Start a project</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell">
+        <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <div class="eyebrow">
+              <span class="status-dot"></span>
+              Specialized Lineage II development
+            </div>
+
+            <h1>
+              Professional systems for
+              <span>Lineage II servers.</span>
+            </h1>
+
+            <p class="hero-description">
+              Custom development for L2JMobius projects. Server-side systems,
+              interfaces, gameplay features, database integration, security,
+              optimization and long-term technical support.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact"
+                >Request a quote</a
+              >
+              <a class="button button-secondary" href="#portfolio"
+                >Explore my work</a
+              >
+            </div>
+
+            <div class="hero-trust">
+              <div>
+                <strong>Core + Datapack</strong>
+                <span>Complete implementation</span>
+              </div>
+              <div>
+                <strong>Interlude / Epilogue</strong>
+                <span>Specialized chronicles</span>
+              </div>
+              <div>
+                <strong>Clean delivery</strong>
+                <span>Organized and documented</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal">
+            <div class="code-window">
+              <div class="code-window-top">
+                <div class="window-dots" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                </div>
+                <span>developer-profile.java</span>
+              </div>
+
+              <div
+                class="code-content"
+                aria-label="Developer technologies and specialties"
+              >
+                <div>
+                  <span class="code-keyword">public final class</span>
+                  <span class="code-class">DevCode</span> {
+                </div>
+                <div class="code-indent">
+                  <span class="code-property">stack</span> = [
+                </div>
+                <div class="code-indent-2">"Java", "L2JMobius", "MySQL",</div>
+                <div class="code-indent-2">
+                  "HTML", "XML", "UnrealScript", "Git"
+                </div>
+                <div class="code-indent">];</div>
+                <br />
+                <div class="code-indent">
+                  <span class="code-property">specialties</span> = [
+                </div>
+                <div class="code-indent-2">"Custom Systems", "Interfaces",</div>
+                <div class="code-indent-2">"PvP Events", "Optimization",</div>
+                <div class="code-indent-2">"Community Board", "Security"</div>
+                <div class="code-indent">];</div>
+                <div>}</div>
+              </div>
+
+              <div class="code-footer">
+                <span><i></i> Available for new projects</span>
+                <span>L2JMobius</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-strip" aria-label="Development strengths">
+        <div class="container stats-grid">
+          <article>
+            <strong>Custom</strong>
+            <span>Systems designed around your project</span>
+          </article>
+          <article>
+            <strong>Stable</strong>
+            <span>Performance-focused implementation</span>
+          </article>
+          <article>
+            <strong>Scalable</strong>
+            <span>Code prepared for future expansion</span>
+          </article>
+          <article>
+            <strong>Professional</strong>
+            <span>Clear structure and technical support</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-kicker">Services</span>
+              <h2>Complete technical solutions</h2>
+            </div>
+            <p>
+              From an isolated feature to a complete server system, every
+              implementation is structured for stability, maintainability and
+              compatibility with your existing project.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <div class="service-number">01</div>
+              <div class="service-icon" aria-hidden="true">⌘</div>
+              <h3>Custom Systems</h3>
+              <p>
+                Exclusive server-side features developed for your economy,
+                progression and gameplay model.
+              </p>
+              <ul class="feature-list">
+                <li>Auto Hunting</li>
+                <li>Skins and Agathions</li>
+                <li>Daily Missions</li>
+                <li>Marketplaces and Shops</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-number">02</div>
+              <div class="service-icon" aria-hidden="true">⚔</div>
+              <h3>Gameplay Development</h3>
+              <p>
+                Events, zones and custom mechanics designed to improve player
+                retention and server identity.
+              </p>
+              <ul class="feature-list">
+                <li>PvP and PvE events</li>
+                <li>Custom farming zones</li>
+                <li>Quest and reward systems</li>
+                <li>Olympiad improvements</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-number">03</div>
+              <div class="service-icon" aria-hidden="true">◈</div>
+              <h3>Interfaces</h3>
+              <p>
+                Client and web interfaces that improve usability while
+                preserving the visual identity of Lineage II.
+              </p>
+              <ul class="feature-list">
+                <li>Community Board</li>
+                <li>Custom windows</li>
+                <li>Teleport and shop UI</li>
+                <li>Responsive websites</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-number">04</div>
+              <div class="service-icon" aria-hidden="true">⚙</div>
+              <h3>Optimization</h3>
+              <p>
+                Technical analysis and refactoring focused on stability,
+                resource usage and long-running server performance.
+              </p>
+              <ul class="feature-list">
+                <li>Bug fixing</li>
+                <li>AI optimization</li>
+                <li>Database improvements</li>
+                <li>Code refactoring</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-number">05</div>
+              <div class="service-icon" aria-hidden="true">⌁</div>
+              <h3>Security</h3>
+              <p>
+                Preventive fixes and validation layers for common abuse vectors,
+                exploits and unsafe game actions.
+              </p>
+              <ul class="feature-list">
+                <li>Anti-exploit validation</li>
+                <li>Packet and action checks</li>
+                <li>Safe database operations</li>
+                <li>Permission control</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-number">06</div>
+              <div class="service-icon" aria-hidden="true">✓</div>
+              <h3>Technical Support</h3>
+              <p>
+                Implementation guidance, troubleshooting and structured delivery
+                for every completed development.
+              </p>
+              <ul class="feature-list">
+                <li>Installation support</li>
+                <li>Compatibility review</li>
+                <li>Source code delivery</li>
+                <li>Post-delivery fixes</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-kicker">Selected work</span>
+              <h2>Projects and systems</h2>
+            </div>
+            <p>
+              A selection of real features created for Lineage II Interlude
+              projects. Open any project to watch its demonstration.
+            </p>
+          </div>
+
+          <div class="portfolio-grid">
+            <a
+              class="project-card project-card-large reveal"
+              href="https://youtu.be/lbS3PmtXhps"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/AutoHunting.bmp"
+                alt="Lineage II Auto Hunting system interface"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>Custom System</span>
+                <h3>Auto Hunting</h3>
+                <p>Automated combat, targeting and player configuration.</p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="project-card reveal"
+              href="https://youtu.be/Ibydt8uTrJc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/redeem.bmp"
+                alt="Lineage II redeem code system"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>Reward System</span>
+                <h3>Redeem Codes</h3>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="project-card reveal"
+              href="https://www.youtube.com/watch?v=Mz7wLxYxdsU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/boxrandom.bmp"
+                alt="Lineage II random box system"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>Item System</span>
+                <h3>Random Boxes</h3>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="project-card reveal"
+              href="https://www.youtube.com/watch?v=rhBnKX_fHzY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/agathions.bmp"
+                alt="Lineage II Agathion system"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>Character System</span>
+                <h3>Agathions</h3>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="project-card reveal"
+              href="https://www.youtube.com/watch?v=oK6vBdqfyj4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/skins.bmp"
+                alt="Lineage II skins system"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>Appearance System</span>
+                <h3>Skins</h3>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="project-card project-card-wide reveal"
+              href="https://www.youtube.com/watch?v=Kq8JMWoIq18&t=6s"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/Interface.bmp"
+                alt="Custom Lineage II Interlude interface"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>Client Interface</span>
+                <h3>Interlude Interface</h3>
+                <p>
+                  A modernized client experience with practical custom windows.
+                </p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="videos">
+        <div class="container">
+          <div class="section-heading section-heading-light reveal">
+            <div>
+              <span class="section-kicker">YouTube</span>
+              <h2>Latest development videos</h2>
+            </div>
+          </div>
+
+          <div class="video-grid" id="video-grid" aria-live="polite"></div>
+
+          <div class="section-action reveal">
+            <a
+              class="button button-light"
+              href="https://www.youtube.com/@DevCode-ar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit the YouTube channel
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process">
+        <div class="container process-layout">
+          <div class="process-intro reveal">
+            <span class="section-kicker">Workflow</span>
+            <h2>A clear development process</h2>
+            <p>
+              Every project is handled in defined stages, reducing ambiguity and
+              protecting compatibility with the existing core and datapack.
+            </p>
+            <a class="text-link" href="#contact"
+              >Discuss your project <span>→</span></a
+            >
+          </div>
+
+          <div class="process-list">
+            <article class="process-step reveal">
+              <span>01</span>
+              <div>
+                <h3>Technical analysis</h3>
+                <p>
+                  Requirements, chronicle, source structure and integration
+                  points are reviewed.
+                </p>
+              </div>
+            </article>
+            <article class="process-step reveal">
+              <span>02</span>
+              <div>
+                <h3>Architecture</h3>
+                <p>
+                  The system is organized before implementation to avoid
+                  duplicated or fragile code.
+                </p>
+              </div>
+            </article>
+            <article class="process-step reveal">
+              <span>03</span>
+              <div>
+                <h3>Development and testing</h3>
+                <p>
+                  Core, datapack, database and interface components are
+                  implemented and validated.
+                </p>
+              </div>
+            </article>
+            <article class="process-step reveal">
+              <span>04</span>
+              <div>
+                <h3>Delivery and support</h3>
+                <p>
+                  Files are delivered in a clear structure with implementation
+                  guidance and follow-up.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="contact-panel reveal">
+            <div class="contact-copy">
+              <span class="section-kicker">Contact</span>
+              <h2>Build something unique for your server.</h2>
+              <p>
+                Tell me what you want to create, which L2JMobius version you use
+                and the current state of your project. I will evaluate the best
+                technical approach.
+              </p>
+
+              <div class="contact-actions">
+                <a
+                  class="button button-primary"
+                  href="mailto:devcode.contact.ar@gmail.com"
+                  >Send an email</a
+                >
+                <a
+                  class="button button-secondary-dark"
+                  href="https://wa.me/541165783450"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <span>Email</span>
+              <a href="mailto:devcode.contact.ar@gmail.com"
+                >devcode.contact.ar@gmail.com</a
+              >
+              <button
+                class="copy-email"
+                type="button"
+                data-email="devcode.contact.ar@gmail.com"
+              >
+                Copy email
+              </button>
+
+              <div class="contact-separator"></div>
+
+              <span>Specialization</span>
+              <strong>L2JMobius Interlude / Epilogue</strong>
+              <span>Development language</span>
+              <strong>Java</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#top">
+            <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+            <span class="brand-copy">
+              <strong>Dev/Code</strong>
+              <small>Lineage II Development</small>
+            </span>
+          </a>
+          <p>
+            Professional development and technical solutions for Lineage II
+            servers.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <strong>Navigation</strong>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#videos">Videos</a>
+          <a href="free.html">Free Resources</a>
+        </div>
+
+        <div class="footer-links">
+          <strong>Social</strong>
+          <a
+            href="https://www.youtube.com/@DevCode-ar"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
+          <a
+            href="https://www.facebook.com/profile.php?id=61591388618175"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+          <a href="mailto:devcode.contact.ar@gmail.com">Email</a>
+        </div>
       </div>
 
-      <div class="footer-links">
-        <strong>Navigation</strong>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#videos">Videos</a>
-        <a href="free.html">Free Resources</a>
+      <div class="container footer-bottom">
+        <span
+          >© <span data-current-year>2026</span> Dev/Code. All rights
+          reserved.</span
+        >
+        <a href="#top">Back to top ↑</a>
       </div>
+    </footer>
 
-      <div class="footer-links">
-        <strong>Social</strong>
-        <a href="https://www.youtube.com/@DevCode-ar" target="_blank" rel="noopener noreferrer">YouTube</a>
-        <a href="https://www.facebook.com/profile.php?id=61591388618175" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="mailto:devcode.contact.ar@gmail.com">Email</a>
-      </div>
-    </div>
-
-    <div class="container footer-bottom">
-      <span>© <span data-current-year>2026</span> Dev/Code. All rights reserved.</span>
-      <a href="#top">Back to top ↑</a>
-    </div>
-  </footer>
-
-  <a class="floating-contact" href="https://wa.me/541165783450" target="_blank" rel="noopener noreferrer" aria-label="Contact Dev Code on WhatsApp">
-    <span aria-hidden="true">✦</span>
-    <span>Let's talk</span>
-  </a>
-</body>
+    <a
+      class="floating-contact"
+      href="https://wa.me/541165783450"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Contact Dev Code on WhatsApp"
+    >
+      <span aria-hidden="true">✦</span>
+      <span>Let's talk</span>
+    </a>
+  </body>
 </html>
